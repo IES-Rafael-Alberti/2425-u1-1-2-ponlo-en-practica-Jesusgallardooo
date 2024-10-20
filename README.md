@@ -12,32 +12,47 @@ Apoyate en los siguientes recursos para realizar la práctica:
 # Título de la Actividad
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** P 1.11: Elementos de desarrollo¶
+- **Módulo:** EDES
+- **Unidad de Trabajo:** UD 1 - Introducción al desarrollo de software
+- **Fecha de Creación:** 20/10/2024
+- **Fecha de Entrega:** 21/10/24
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Jesús Gallardo Domínguez
+  - **Correo electrónico:** jgaldom0701@g.eduacaand.es
+  - **Iniciales del Alumno/Grupo:** JGD
 
 ## Descripción de la Actividad
 [Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
+   - Python, C y Java
+   - Visual Studio Code
 
 2. **Pasos para Compilar el Código:**
+
+   
+   Para compilar nuestro programa en C:
    ```bash
-   [Comando para compilar el código]
+   gcc bienvenida.c -o bienvenida
+   ```
+
+   Para compilar nuestro programa en Java:
+   ```bash
+   javac bienvenida.java
    ```
 
 3. **Pasos para Ejecutar el Código:**
+
+   Para ejecutar el programa en C:
    ```bash
-   [Comando para ejecutar la aplicación]
+   ./bienvenida
+   ```
+
+   Para ejecutar el programa en java:
+   ```bash
+   java bienvenida
    ```
 
 4. **Ejecución de Pruebas:**
