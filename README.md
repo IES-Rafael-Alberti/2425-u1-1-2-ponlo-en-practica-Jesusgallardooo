@@ -9,9 +9,9 @@ Apoyate en los siguientes recursos para realizar la práctica:
 
 ---
 
-# Título de la Actividad
+# Elementos del desarrollo: ponlo en práctica
 
-## Identificación de la Actividad
+## P 1.11 Ponlo en práctica
 - **ID de la Actividad:** P 1.11: Elementos de desarrollo¶
 - **Módulo:** EDES
 - **Unidad de Trabajo:** UD 1 - Introducción al desarrollo de software
@@ -45,6 +45,11 @@ Apoyate en los siguientes recursos para realizar la práctica:
 
 3. **Pasos para Ejecutar el Código:**
 
+   Para ejecutar el programa en python:
+   ```bash
+   python3 bienvenida.py
+   ```
+
    Para ejecutar el programa en C:
    ```bash
    ./bienvenida
@@ -55,17 +60,81 @@ Apoyate en los siguientes recursos para realizar la práctica:
    java bienvenida
    ```
 
-4. **Ejecución de Pruebas:**
-   ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
-   ```
 
 ## Desarrollo de la Actividad
 ### Descripción del Desarrollo
 [Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
 
 ### Código Fuente
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
+
+[Código fuente C.](src/bienvenida.c) 
+
+[Código fuente java.](src/Bienvenida.java)
+
+[Código fuente python.](src/bienvenida.py)
+
+### 5.1. Criterio de Evaluación 1.a: Relación entre Software y Hardware.
+
+#### Pregunta:
+
+#### 1. Describe cómo el software que has creado se ha relacionado con los componentes físicos del dispositivo (memoria RAM, procesador, periféricos, etc.) durante la ejecución de los tres lenguajes (interpretado, compilado y en máquina virtual).
+
+   - #### Puntos a incluir:
+        - Cómo se almacenaron los datos en memoria.
+        Qué hizo el procesador con el código.
+
+        - Si se interactuó con periféricos, como la pantalla para mostrar la salida.
+
+### 5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable.
+
+#### Preguntas:
+
+#### 1. Explica cómo el código fuente que escribiste se transformó en código objeto y ejecutable en el caso de los lenguajes compilados. ¿Generaste archivos intermedios (código objeto)? ¿Qué nombres tomaron estos archivos? 
+
+#### 2. Para los lenguajes interpretados, describe cómo el código fuente se ejecutó directamente, sin generar archivos de código objeto o ejecutable. 
+
+#### 3. Para el lenguaje que genera código intermedio (Java, C#), explica cómo el código fuente se transformó en código intermedio (bytecode) y cómo este fue ejecutado por la máquina virtual.
+
+### 5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales.
+
+#### Preguntas:
+
+#### 1. Describe el proceso de generación de código intermedio (bytecode) en el lenguaje que utilizaste que emplea una máquina virtual (por ejemplo, Java o C#). 
+
+#### 2. Explica qué rol juega la máquina virtual en la ejecución del código y cómo difiere de la ejecución directa en un sistema operativo como ocurre con los lenguajes compilados e interpretados. 
+
+### 5.4. Criterio de Evaluación 1.e: Clasificación de Lenguajes de Programación.
+
+#### Preguntas:
+
+#### 1. Clasifica los tres lenguajes utilizados (interpretado, compilado y en máquina virtual) según su:
+
+   -  **Modo de ejecución** (interpretado vs compilado vs máquina virtual). 
+
+   - **Nivel de abstracción** (alto nivel vs bajo nivel). 
+
+   - **Paradigma de programación** (imperativo, orientado a objetos, funcional). 
+
+
+#### 2. Explica qué características de estos lenguajes influyeron en su clasificación.
+
+###  5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo.
+
+#### Preguntas:
+
+#### 1. El *código fuente* de los tres lenguajes elegidos (interpretado, compilado y en máquina virtual). 
+
+- **Sistema operativo** (¿en qué sistema ejecutaste el programa?). 
+
+- **Editor de texto o IDE** (¿dónde escribiste el código?).     
+
+- **Compilador o intérprete** (¿cómo se transformó o ejecutó el código?). 
+
+- **Depurador** (si lo usaste, ¿cómo lo empleaste para encontrar errores?). 
+
+- **Sistema de gestión de versiones** (si lo usaste, ¿cómo guardaste las versiones del código?). 
+
+---
 
 ### Ejemplos de Ejecución
 - **Entrada 1:** Descripción de la entrada y valor de prueba.
@@ -81,8 +150,8 @@ Apoyate en los siguientes recursos para realizar la práctica:
 ## Conclusiones
 [Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
 
-## Referencias y Fuentes
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
+## Bibliografía:
+- https://revilofe.github.io/
 
 ### Notas Adicionales:
 1. **Nombres de Archivos y Repositorios:**
